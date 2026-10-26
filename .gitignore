@@ -1,0 +1,33 @@
+# Quickshell and local development
+.cache/
+.local/
+.qmlcache/
+*.qmlc
+*.log
+
+# Build and release output
+build/
+dist/
+coverage/
+*.zip
+*.sha256
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+config.local.*
+credentials.*
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Generated media and test data
+screenshots/generated/
+tests/fixtures/generated/
+
+# Local developer reference documents
+NIGHT_CITY_PANEL_DEVELOPER_GUIDELINES.md
